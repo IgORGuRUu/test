@@ -1,0 +1,66 @@
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+
+Demonstration of the different border styles:
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):
+<style>
+    p.one {
+      border-style: solid;
+      border-color:red;
+      border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+    }
+    
+    p.two {
+      border-style: solid;
+      border-color:greenyellow
+      border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+    }
+    
+    p.three {
+      border-style: solid;
+      border-color:blueviolet
+      border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+    }
+    </style>
+
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+
+
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+  }
+

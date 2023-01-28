@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        Inserisci un numero: <input type="number" id="myText" value="Mickey">
+        <p>Click the buttom to display the value of the value attribute of the text field.</p>
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                let numero = document.getElementById("myText").value;
+                const conenutoInput = document.getElementByID("myText").innerHTML;
+                console.log(contenutoInput);
+                numero = parseInt(numero);
+                document.getElementByID("tipoVariabile").innerHTML = typeof(numero);
+                document.getElementByID("demo").innerHTML = numero;
+            }
+            </script>
+
+    </body>
+</html> 
